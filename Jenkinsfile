@@ -10,7 +10,7 @@
             
             steps{
                 
-                checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Omer930/maven-jenkins.git']]])
+              checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Omer930/Newrepo.git']]])]]])
         }
         stage('Build'){
             
